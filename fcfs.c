@@ -13,7 +13,7 @@ void main()
 	}
 	wt[0]=0,ct[0]=bt[0];
 	float ttat=ct[0],twt=0;
-	for(i=1 ; i<n ; i++)	//Calculate Competion,TurnAround  and waiting times
+	for(i=1 ; i<n ; i++)	//Calculate Completion,TurnAround  and waiting times
 	{
 		ct[i]=ct[i-1]+bt[i];
 		wt[i]=ct[i-1];
