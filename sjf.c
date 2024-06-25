@@ -13,7 +13,7 @@ void main()
 		p[i]=i+1;
 	}
 	for(i=0; i<(n-1); i++)
-    {							//sorting based on burst time
+    {				//sorting based on burst time
         for( j=0; j<(n-1-i); j++)
         {
             if(bt[j]>bt[j+1])
@@ -38,7 +38,7 @@ void main()
 		twt=twt+wt[i];
 			
 	}
-	printf("Process   Burst Time  Compilation Time   TurnAround Time   Wating time\n");
+	printf("Process   Burst Time  Completion Time   TurnAround Time   Wating time\n");
 	for(i=0 ; i<n ; i++)
 	{
 		printf("P%d\t\t%d\t\t%d\t\t%d\t\t%d\n",p[i],bt[i],ct[i],ct[i],wt[i]);
