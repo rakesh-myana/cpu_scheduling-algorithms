@@ -1,4 +1,4 @@
-//SJF without arrival time
+//SJF without arrival time non-preemptive
 #include<stdio.h>
 void main()
 {
