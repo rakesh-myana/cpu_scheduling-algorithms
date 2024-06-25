@@ -1,4 +1,4 @@
-//non_preemptive priority
+//non_preemptive priority without arrival time
 #include<stdio.h>
 void main()
 {
